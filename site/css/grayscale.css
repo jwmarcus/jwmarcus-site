@@ -5,12 +5,12 @@
  */
 
 .circularFace {
-    width: 250px;
-    height: 250px;
+    width: 275px;
+    height: 275px;
     border-radius: 125px;
     -webkit-border-radius: 125px;
     -moz-border-radius: 125px;
-    background: url(../img/face.jpg) no-repeat;
+    background: url(../img/face.png) no-repeat;
     text-align: center;
     display: inline-block;
     margin-bottom: 30px;
@@ -235,7 +235,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -252,7 +252,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
