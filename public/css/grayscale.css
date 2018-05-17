@@ -391,7 +391,7 @@ body {
  */
 
 .card {
-   padding: 20px;
+   padding: 25px;
    text-align: justify;
 }
 
@@ -412,9 +412,7 @@ body {
 }
 
 .results-inverse {
-  border: 1px solid #888;
-  /* background-color: #DDD;
-  color: #000; */
+  border: 1px solid #42dca3;
 }
 
 .header-overlay {
