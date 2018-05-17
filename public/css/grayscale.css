@@ -270,7 +270,8 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 150px;
+    color: #eee;
 }
 
 .download-section {
@@ -293,7 +294,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 150px;
     }
 
     .download-section {
@@ -382,4 +383,23 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+/*!
+ * John's Defined Classes
+ */
+
+.card {
+   padding: 20px;
+   text-align: justify;
+}
+
+.card h3, ul {
+  text-align: center!important;
+}
+
+@media(min-width:768px) {
+    .upper-card {
+      height:350px;
+    }
 }
