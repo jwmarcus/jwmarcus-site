@@ -22,6 +22,7 @@ body {
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #000;
+    overflow-x: hidden;
 }
 
 html {
@@ -411,9 +412,9 @@ body {
 }
 
 .results-inverse {
-  border: 2px solid #888;
-  background-color: #DDD;
-  color: #000;
+  border: 1px solid #888;
+  /* background-color: #DDD;
+  color: #000; */
 }
 
 .header-overlay {
@@ -424,7 +425,7 @@ body {
   width: 100vw;
   z-index: 1;
   background: #000;
-  opacity: 0.55;
+  opacity: 0.65;
 }
 
 .header-text {
@@ -440,21 +441,21 @@ body {
   overflow:hidden;
 }
 
-.fullscreen-video-wrap video {
-  min-height:100%;
-  min-width:100%;
-}
-
-.fullscreen-video-wrap iframe {
-  min-height:100%;
-  min-width:100%;
-}
-
-@media(max-width:768px) {
+@media(max-width:767px) {
   .fullscreen-video-wrap {
     display: none!important;
   }
   .header-overlay {
     display: none!important;
   }
+}
+
+@media(min-width:768px) {
+  .intro {
+    background: none!important;
+  }
+}
+
+.nocase {
+  text-transform: none;
 }
