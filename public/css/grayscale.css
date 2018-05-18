@@ -412,6 +412,13 @@ body {
 
 .results-inverse {
   border: 1px solid #42dca3;
+  padding: 25px 15px 10px 15px;
+}
+
+.results-inverse p {
+  text-align: left;
+  text-indent: -15px;
+  padding-left: 30px;
 }
 
 .header-overlay {
