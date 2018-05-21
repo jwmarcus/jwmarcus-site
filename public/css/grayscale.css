@@ -406,12 +406,19 @@ body {
 }
 
 .results-card {
-   padding: 25px 25px 10px 25px;
+   padding: 25px 30px 10px 30px;
    margin-bottom: 55px;
 }
 
 .results-inverse {
   border: 1px solid #42dca3;
+  padding: 25px 15px 10px 15px;
+}
+
+.results-inverse p {
+  text-align: left;
+  text-indent: -15px;
+  padding-left: 30px;
 }
 
 .header-overlay {
