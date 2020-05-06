@@ -1,4 +1,4 @@
-# HTML componenets for [jwmarcus.com](http://www.jwmarcus.com)
+# HTML components for [jwmarcus.com](http://www.jwmarcus.com)
 
 **Build** locally with docker:
 
